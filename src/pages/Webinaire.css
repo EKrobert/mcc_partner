@@ -1,0 +1,176 @@
+.wh-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 60px;
+  align-items: start;
+}
+@media (max-width: 900px) { .wh-grid { grid-template-columns: 1fr; } }
+
+.wh-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.wh-badge.red  { background: var(--red-tint);    color: var(--red);      border: 1px solid rgba(227,27,24,0.2); }
+.wh-badge.green{ background: var(--green-tint);  color: var(--green);    border: 1px solid rgba(0,155,114,0.2); }
+.wh-badge.gold { background: var(--yellow-tint); color: var(--gold-dark);border: 1px solid rgba(84,71,24,0.2); }
+
+.countdown-card {
+  padding: 32px 28px;
+  min-width: 240px;
+  text-align: center;
+}
+.countdown-date {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--red);
+  margin: 8px 0 20px;
+}
+.countdown-boxes {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.cbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 16px;
+  background: var(--red-tint);
+  border: 1px solid rgba(227,27,24,0.15);
+  border-radius: var(--radius-sm);
+  min-width: 60px;
+}
+.cbox span {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 300;
+  color: var(--red);
+  line-height: 1;
+}
+.cbox small { font-size: 10px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
+
+/* Webinaire main grid */
+.webinaire-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+@media (max-width: 1024px) { .webinaire-grid { grid-template-columns: 1fr; } }
+
+/* Programme */
+.programme-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+.programme-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--ink-mid);
+  font-weight: 300;
+  line-height: 1.5;
+}
+.prog-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--red);
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+/* Speakers */
+.speakers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+.speaker-card {
+  display: flex;
+  gap: 16px;
+  padding: 16px 20px;
+  align-items: flex-start;
+}
+.speaker-flag {
+  font-size: 28px;
+  width: 48px;
+  height: 48px;
+  background: var(--bg-soft);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.speaker-name { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
+.speaker-role { font-size: 11px; color: var(--red); font-weight: 500; letter-spacing: 0.5px; margin-bottom: 6px; }
+.speaker-bio  { font-size: 12px; color: var(--muted); font-weight: 300; line-height: 1.6; }
+
+/* Form */
+.form-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.form-subtitle { font-size: 13px; color: var(--muted); font-weight: 300; margin-bottom: 28px; }
+
+/* Success */
+.success-state {
+  text-align: center;
+  padding: 20px 0;
+}
+.success-icon { font-size: 56px; margin-bottom: 16px; }
+.success-state h3 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  color: var(--green);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.success-state p { font-size: 14px; color: var(--muted); font-weight: 300; line-height: 1.7; }
+
+/* Replays */
+.replays-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.replay-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 24px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.replay-card:hover { box-shadow: var(--shadow); transform: translateX(4px); }
+.replay-play {
+  width: 44px;
+  height: 44px;
+  background: var(--red-tint);
+  color: var(--red);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+.replay-title { font-size: 14px; font-weight: 500; color: var(--ink); margin-bottom: 3px; }
+.replay-meta  { font-size: 12px; color: var(--muted); font-weight: 300; }
+.replay-dl { margin-left: auto; font-size: 20px; color: var(--muted-light); cursor: pointer; }
+.replay-dl:hover { color: var(--green); }

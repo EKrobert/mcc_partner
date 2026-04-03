@@ -1,0 +1,113 @@
+.footer {
+  background: var(--bg-soft);
+  border-top: 1px solid var(--border);
+  margin-top: auto;
+}
+.footer-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 60px;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+@media (max-width: 1024px) {
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 40px; }
+}
+@media (max-width: 600px) {
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+}
+
+.footer-logo {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.footer-logo .logo-m {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--red);
+  letter-spacing: -2px;
+  line-height: 1;
+}
+.footer-logo .logo-cc {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--ink);
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.footer-logo-sub {
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: var(--muted);
+  font-weight: 300;
+  margin-top: 2px;
+  margin-bottom: 16px;
+}
+.footer-tagline {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 300;
+  line-height: 1.7;
+  max-width: 280px;
+  margin-bottom: 16px;
+}
+.footer-flags {
+  font-size: 18px;
+  color: var(--muted);
+}
+
+.footer-col h4 {
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-mid);
+  margin-bottom: 20px;
+}
+.footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-col ul li a,
+.footer-col ul li span {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 300;
+  transition: var(--transition);
+}
+.footer-col ul li a:hover { color: var(--red); }
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+.social-chip {
+  font-size: 11px;
+  padding: 4px 10px;
+  border: 1px solid var(--border-mid);
+  border-radius: 20px;
+  color: var(--muted);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+}
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  color: var(--muted-light);
+  font-weight: 300;
+}
+@media (max-width: 600px) {
+  .footer-bottom-inner { flex-direction: column; gap: 8px; text-align: center; }
+}

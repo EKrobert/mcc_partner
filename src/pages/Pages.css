@@ -1,0 +1,200 @@
+/* ── Page Hero ───────────────────────────────────────────────────── */
+.page-hero {
+  padding: 80px 0 64px;
+  border-bottom: 1px solid var(--border);
+}
+.page-hero-sub {
+  font-size: 16px;
+  color: var(--ink-mid);
+  font-weight: 300;
+  max-width: 620px;
+  line-height: 1.8;
+  margin-top: 16px;
+}
+.about-hero { background: linear-gradient(135deg, #fff5f5 0%, #f0faf7 100%); }
+.atouts-hero { background: linear-gradient(135deg, #f0faf7 0%, #fffbe6 100%); }
+.webinaire-hero { background: linear-gradient(135deg, #fff5f5 0%, #fff 100%); }
+.salon-hero { background: linear-gradient(135deg, #f0faf7 0%, #fff 100%); }
+.contact-hero { background: var(--bg-soft); }
+
+/* ── Pillars ─────────────────────────────────────────────────────── */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 768px) { .pillars-grid { grid-template-columns: 1fr; } }
+
+.pillar-card {
+  padding: 32px 28px;
+  border-top: 4px solid;
+  transition: var(--transition);
+}
+.pillar-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.pillar-flag { font-size: 32px; margin-bottom: 16px; }
+.pillar-title { font-size: 15px; font-weight: 600; margin-bottom: 12px; }
+.pillar-text { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.75; }
+
+/* ── Values full ─────────────────────────────────────────────────── */
+.values-full-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 768px) { .values-full-grid { grid-template-columns: 1fr; } }
+
+.value-full-card {
+  padding: 36px 28px;
+  transition: var(--transition);
+}
+.value-full-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.value-full-icon { font-size: 36px; margin-bottom: 16px; }
+.value-full-card h3 { font-size: 16px; font-weight: 600; color: var(--ink); margin-bottom: 12px; }
+.value-full-card p { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.75; }
+
+/* ── Philosophy ──────────────────────────────────────────────────── */
+.philosophy {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: start;
+}
+@media (max-width: 900px) { .philosophy { grid-template-columns: 1fr; gap: 48px; } }
+
+.philosophy-left p {
+  font-size: 14px;
+  color: var(--ink-mid);
+  font-weight: 300;
+  line-height: 1.85;
+  margin: 20px 0;
+}
+.philosophy-left em { font-style: italic; color: var(--red); }
+.philosophy-left strong { color: var(--ink); font-weight: 600; }
+
+.summit-visual {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 32px 24px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 24px;
+}
+.summit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.summit span { font-size: 40px; }
+.summit strong { font-size: 13px; font-weight: 600; color: var(--ink); }
+.summit small { font-size: 11px; color: var(--muted); }
+.summit.ma strong { color: var(--green); }
+.summit.cn strong { color: var(--red); }
+.summit-bridge { font-size: 24px; color: var(--yellow); }
+
+.timeline { display: flex; flex-direction: column; gap: 16px; }
+.timeline-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.timeline-dot {
+  width: 40px;
+  height: 40px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.timeline-item div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-top: 8px;
+}
+.timeline-item strong {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--red);
+  letter-spacing: 1px;
+}
+.timeline-item span {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* ── Atouts page ─────────────────────────────────────────────────── */
+.atouts-full-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 900px) { .atouts-full-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .atouts-full-grid { grid-template-columns: 1fr; } }
+
+.atout-full-card {
+  padding: 36px 28px;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.atout-full-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.atout-full-card::before {
+  content: attr(data-num);
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-family: var(--font-display);
+  font-size: 64px;
+  font-weight: 300;
+  color: var(--border);
+  line-height: 1;
+}
+.atout-full-emoji { font-size: 36px; margin-bottom: 16px; }
+.atout-full-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+.atout-full-text {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+/* ── Corridor map ────────────────────────────────────────────────── */
+.corridor-map {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  margin-top: 48px;
+}
+@media (max-width: 768px) { .corridor-map { grid-template-columns: repeat(2, 1fr); } }
+
+.corridor-node {
+  padding: 32px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.corridor-node span { font-size: 40px; }
+.corridor-node strong {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.corridor-node p { font-size: 12px; color: var(--muted); font-weight: 300; }
