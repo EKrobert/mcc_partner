@@ -1,0 +1,320 @@
+/* ── Hero recrutement ────────────────────────────────────────────── */
+.recrutement-hero {
+  background: linear-gradient(135deg, #fff5f5 0%, #fff 50%, #f0faf7 100%);
+}
+
+.recru-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid;
+}
+
+/* ── Stats bar ───────────────────────────────────────────────────── */
+.recru-stats-bar {
+  background: var(--ink);
+  padding: 28px 0;
+}
+.recru-stats-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.recru-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.recru-stat-num {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--yellow);
+  line-height: 1;
+}
+.recru-stat-label {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+/* ── Intro grid ──────────────────────────────────────────────────── */
+.recru-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .recru-intro-grid { grid-template-columns: 1fr; gap: 48px; }
+}
+
+.recru-intro-text {
+  font-size: 14px;
+  color: var(--ink-mid);
+  font-weight: 300;
+  line-height: 1.85;
+  margin-bottom: 16px;
+}
+
+/* Visual flow */
+.recru-intro-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.recru-visual-card {
+  width: 100%;
+  padding: 24px 20px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.recru-vc-red   { background: var(--red-tint);    border: 1.5px solid rgba(227,27,24,0.2); }
+.recru-vc-gold  { background: var(--yellow-tint); border: 1.5px solid rgba(84,71,24,0.2); }
+.recru-vc-green { background: var(--green-tint);  border: 1.5px solid rgba(0,155,114,0.2); }
+
+.recru-vc-icon { font-size: 28px; flex-shrink: 0; }
+.recru-visual-card strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 3px;
+}
+.recru-visual-card span {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 300;
+}
+.recru-arrow {
+  font-size: 22px;
+  color: var(--muted-light);
+}
+
+/* ── Profiles grid ───────────────────────────────────────────────── */
+.profiles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 900px) { .profiles-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 600px) { .profiles-grid { grid-template-columns: 1fr; } }
+
+.profile-card {
+  padding: 32px 24px;
+  border-top: 4px solid;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.profile-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+
+.profile-icon { font-size: 36px; }
+.profile-title { font-size: 15px; font-weight: 600; }
+.profile-desc  { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.7; flex: 1; }
+.profile-tags  { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.profile-tag {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-weight: 500;
+}
+
+/* ── Avantages ───────────────────────────────────────────────────── */
+.avantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 900px) { .avantages-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 600px) { .avantages-grid { grid-template-columns: 1fr; } }
+
+.avantage-card {
+  padding: 32px 24px;
+  transition: var(--transition);
+  border-top: 3px solid var(--border);
+}
+.avantage-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+  border-top-color: var(--red);
+}
+.avantage-icon  { font-size: 36px; margin-bottom: 14px; }
+.avantage-title { font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: 10px; }
+.avantage-text  { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.75; }
+
+/* ── Étapes ──────────────────────────────────────────────────────── */
+.etapes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.etape-item {
+  display: grid;
+  grid-template-columns: 64px 32px 1fr;
+  gap: 0 20px;
+  align-items: stretch;
+}
+.etape-num {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--gold-dark);
+  line-height: 1;
+  padding-top: 24px;
+  text-align: right;
+}
+.etape-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.etape-connector::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gold-dark);
+  margin-top: 28px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+.etape-connector::after {
+  content: '';
+  width: 2px;
+  flex: 1;
+  background: var(--border);
+  margin-top: 4px;
+}
+.etape-item:last-child .etape-connector::after { display: none; }
+
+.etape-content {
+  padding: 24px 28px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  transition: var(--transition);
+}
+.etape-content:hover { box-shadow: var(--shadow); transform: translateX(4px); }
+.etape-title { font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+.etape-text  { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.7; }
+
+@media (max-width: 600px) {
+  .etape-item { grid-template-columns: 40px 24px 1fr; gap: 0 12px; }
+  .etape-num  { font-size: 26px; }
+}
+
+/* ── Academic banner ─────────────────────────────────────────────── */
+.academic-banner {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 72px;
+  align-items: center;
+  padding: 56px 48px;
+  background: linear-gradient(135deg, var(--green-tint) 0%, var(--white) 100%);
+  border: 1.5px solid rgba(0,155,114,0.2);
+  border-radius: var(--radius-lg);
+}
+@media (max-width: 900px) {
+  .academic-banner { grid-template-columns: 1fr; gap: 40px; padding: 36px 24px; }
+}
+
+.academic-schools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+.school-chip {
+  padding: 5px 12px;
+  background: var(--white);
+  border: 1px solid rgba(0,155,114,0.25);
+  border-radius: 20px;
+  font-size: 12px;
+  color: var(--green);
+  font-weight: 500;
+}
+
+.academic-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.academic-stat {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  font-size: 22px;
+  box-shadow: var(--shadow-sm);
+}
+.academic-stat div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.academic-stat strong {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--green);
+}
+.academic-stat small {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 300;
+}
+
+/* ── Form section ────────────────────────────────────────────────── */
+.recru-form-wrap {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+@media (max-width: 1024px) {
+  .recru-form-wrap { grid-template-columns: 1fr; }
+  .recru-form-side { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+}
+@media (max-width: 600px) {
+  .recru-form-side { grid-template-columns: 1fr; }
+}
+
+.recru-form-card { padding: 40px 36px; }
+@media (max-width: 600px) { .recru-form-card { padding: 24px 20px; } }
+
+.recru-success {
+  text-align: center;
+  padding: 32px 0;
+}
+.recru-success h3 {
+  font-family: var(--font-display);
+  font-size: 34px;
+  color: var(--green);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.recru-success p {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 300;
+  line-height: 1.7;
+}

@@ -7,6 +7,7 @@ import Atouts    from './pages/Atouts'
 import Webinaire from './pages/Webinaire'
 import Salon     from './pages/Salon'
 import Contact   from './pages/Contact'
+import Recrutement from './pages/Recrutement'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/atouts"     element={<Atouts />} />
           <Route path="/webinaire"  element={<Webinaire />} />
           <Route path="/salon"      element={<Salon />} />
+           <Route path="/recrutement"  element={<Recrutement />} />
           <Route path="/contact"    element={<Contact />} />
           <Route path="*"           element={<Home />} />
         </Routes>
