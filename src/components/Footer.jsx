@@ -55,7 +55,7 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <span>2026 MCC Partners Maroc China Connect. Tous droits réservés.</span>
+          <span>2026 MCC Partners Morocco - China Connect. Tous droits réservés.</span>
           <span>FR &nbsp;|&nbsp; AR &nbsp;|&nbsp; ZH &nbsp;|&nbsp; EN</span>
         </div>
       </div>

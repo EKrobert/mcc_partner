@@ -342,7 +342,7 @@ export default function Recrutement() {
             <div className="card recru-form-card">
               {submitted ? (
                 <div className="recru-success">
-                  <div style={{ fontSize: 56, marginBottom: 16 }}>✅</div>
+                  <div style={{ fontSize: 56, marginBottom: 16 }}></div>
                   <h3>Demande Enregistrée !</h3>
                   <p>Notre équipe RH analysera votre besoin et vous recontactera sous 48h avec une première sélection de profils.</p>
                   <p style={{ marginTop: 8, color: 'var(--red)', fontWeight: 500 }}>🇲🇦 × 🇨🇳 — MCC Partners RH</p>
