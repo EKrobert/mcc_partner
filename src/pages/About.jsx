@@ -5,7 +5,7 @@ export default function About() {
   const pillars = [
     { flag: '🇲🇦🇫🇷', title: 'Le Pilier Marocain', color: 'var(--green)', text: 'Porté par un MRE de double nationalité franco-marocaine, il apporte la maîtrise des cadres institutionnels occidentaux et marocains, ainsi qu\'une compréhension fine des enjeux de souveraineté économique du Royaume.' },
     { flag: '🇨🇳', title: 'Le Pilier Chinois', color: 'var(--red)', text: 'Incarné par M. Lu et Mme Dai, deux partenaires seniors de haute compétence. Leur présence garantit un accès aux écosystèmes décisionnels chinois et une maîtrise totale des protocoles d\'affaires sino-africains.' },
-    { flag: '🌍', title: 'La Vision Africaine', color: 'var(--gold-dark)', text: 'MCC Partners se positionne comme l\'ambassadeur des opportunités du Maroc — symbolisées par Nador West Med et Tanger Med — portes d\'entrée vers les 54 nations africaines en pleine croissance.' },
+    { flag: '🌍', title: 'La Vision Africaine', color: 'var(--gold-dark)', text: 'MCC Partners se positionne comme l\'ambassadeur des opportunités du Maroc - symbolisées par Nador West Med et Tanger Med - portes d\'entrée vers les 54 nations africaines en pleine croissance.' },
   ]
 
   return (
@@ -18,7 +18,7 @@ export default function About() {
           <h1 className="display display-lg">L'ADN de la <em>Connexion</em></h1>
           <p className="page-hero-sub">
             MCC Partners transcende la simple mise en relation. Nous sommes un mécanisme d'alignement
-            stratégique — fusionnant deux cultures de l'excellence au service d'un corridor économique durable.
+            stratégique - fusionnant deux cultures de l'excellence au service d'un corridor économique durable.
           </p>
         </div>
       </section>
@@ -63,8 +63,8 @@ export default function About() {
           <div className="philosophy-left">
             <div className="section-label">Philosophie Narrative</div>
             <h2 className="display display-md">Le Parallélisme<br />des <em>Sommets</em></h2>
-            <p>La communication de MCC Partners repose sur une métaphore géographique forte — le <strong>Toubkal</strong> (Maroc) et le <strong>Shishapangma</strong> (Chine) — deux sommets qui symbolisent deux civilisations millénaires unies par une quête commune d'excellence.</p>
-            <p>L'histoire ne se répète pas — <em>elle s'écrit à nouveau.</em></p>
+            <p>La communication de MCC Partners repose sur une métaphore géographique forte - le <strong>Toubkal</strong> (Maroc) et le <strong>Shishapangma</strong> (Chine) - deux sommets qui symbolisent deux civilisations millénaires unies par une quête commune d'excellence.</p>
+            <p>L'histoire ne se répète pas - <em>elle s'écrit à nouveau.</em></p>
           </div>
           <div className="philosophy-right">
             <div className="summit-visual">
@@ -83,9 +83,9 @@ export default function About() {
             <div className="timeline">
               {[
                 ['🏛', '7e siècle', 'Premières relations commerciales Maroc–Chine via la Route de la Soie'],
-                ['🤝', '2016', 'Visite Royale en Chine — naissance des grands projets structurants'],
-                ['🚢', '2026', 'Nador West Med + 0% droits de douane — nouveau départ historique'],
-                ['🌍', '2030+', 'Corridor Maroc–Chine–Afrique — plateforme de référence mondiale'],
+                ['🤝', '2016', 'Visite Royale en Chine - naissance des grands projets structurants'],
+                ['🚢', '2026', 'Nador West Med + 0% droits de douane - nouveau départ historique'],
+                ['🌍', '2030+', 'Corridor Maroc–Chine–Afrique - plateforme de référence mondiale'],
               ].map(([icon, year, text]) => (
                 <div key={year} className="timeline-item">
                   <div className="timeline-dot">{icon}</div>

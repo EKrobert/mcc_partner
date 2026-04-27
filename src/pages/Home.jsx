@@ -14,7 +14,7 @@ export default function Home() {
           {/* Texte à gauche */}
           <div className="hero-content">
             <div className="hero-eyebrow animate-fadeIn">
-              <span className="label" style={{ color: 'var(--red)' }}>Maroc China Connect</span>
+              <span className="label" style={{ color: 'var(--red)' }}>Morocco China Connect</span>
               <div className="hero-flags">
                 <span className="flag-dot" style={{ background: 'var(--green)' }} />
                 <span className="flag-dot" style={{ background: 'var(--red)' }} />
@@ -29,13 +29,13 @@ export default function Home() {
 
             <p className="hero-sub animate-fadeUp" style={{ animationDelay: '0.2s' }}>
               MCC Partners transforme les intentions d'investissement entre le Maroc et la Chine
-              en trajectoires économiques solides — fondées sur la confiance, l'intelligence
+              en trajectoires économiques solides - fondées sur la confiance, l'intelligence
               culturelle et l'expertise de réseau.
             </p>
 
             <div className="hero-actions animate-fadeUp" style={{ animationDelay: '0.4s' }}>
               <NavLink to="/webinaire" className="btn btn-primary btn-lg">
-                Webinaire — 11 Mai 2026
+                Webinaire le 11 Mai 2026
               </NavLink>
               <NavLink to="/about" className="btn btn-outline btn-lg">
                 Découvrir MCC Partners
@@ -47,7 +47,7 @@ export default function Home() {
           <div className="hero-image-wrap animate-fadeIn" style={{ animationDelay: '0.3s' }}>
             <img
               src="/flags-morocco-china.png"
-              alt="Drapeaux Maroc et Chine — MCC Partners"
+              alt="Drapeaux Maroc et Chine - MCC Partners"
               className="hero-flags-img"
             />
           </div>
@@ -58,7 +58,7 @@ export default function Home() {
       {/* ── BANNER ────────────────────────────────────────────────── */}
       <div className="banner-bar">
         <div className="container banner-inner">
-          <span>🏔 Toubkal — Maroc &nbsp;|&nbsp; 🏔 Shishapangma — Chine</span>
+          <span>🏔 Toubkal - Maroc &nbsp;|&nbsp; 🏔 Shishapangma - Chine</span>
           <em style={{ fontFamily: 'var(--font-display)', fontSize: 18 }}>
             « Le respect reconnaît le respect »
           </em>
@@ -91,7 +91,7 @@ export default function Home() {
             </h2>
             <p className="mission-text">
               MCC Partners repose sur des valeurs d'honnêteté, de confiance et de respect mutuel.
-              Nous ne créons pas seulement des connexions commerciales — nous bâtissons des
+              Nous ne créons pas seulement des connexions commerciales - nous bâtissons des
               trajectoires pérennes entre deux civilisations millénaires.
             </p>
             <div className="values-list">
@@ -117,7 +117,7 @@ export default function Home() {
                 Entre la vision et l'exécution...<br />
                 il y a l'intelligence culturelle.
               </blockquote>
-              <cite>— MCC Partners, Philosophie Fondatrice</cite>
+              <cite>- MCC Partners, Philosophie Fondatrice</cite>
             </div>
             <div className="corridor-visual">
               {[
@@ -174,14 +174,14 @@ export default function Home() {
               <div className="event-emoji">📡</div>
               <div className="event-tag label" style={{ color: 'var(--red)' }}>En ligne</div>
               <h3>Webinaire Stratégique</h3>
-              <p>11 Mai 2026 — 10e anniversaire du partenariat Maroc–Chine. Inscription gratuite.</p>
+              <p>11 Mai 2026 - 10e anniversaire du partenariat Maroc–Chine. Inscription gratuite.</p>
               <NavLink to="/webinaire" className="btn btn-primary">S'inscrire maintenant</NavLink>
             </div>
             <div className="event-card event-green">
               <div className="event-emoji">🏛</div>
               <div className="event-tag label" style={{ color: 'var(--green)' }}>Physique</div>
-              <h3>Salon MCC — Oriental</h3>
-              <p>Fin 2026 — Nador West Med. Stands Chinois & Invitations Marocaines.</p>
+              <h3>Salon MCC - Oriental</h3>
+              <p>Fin 2026 - Nador West Med. Stands Chinois & Invitations Marocaines.</p>
               <NavLink to="/salon" className="btn btn-green">Accéder au Salon</NavLink>
             </div>
           </div>

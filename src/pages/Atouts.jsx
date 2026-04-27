@@ -8,7 +8,7 @@ export default function Atouts() {
       <section className="page-hero atouts-hero">
         <div className="container">
           <div className="section-label green">Levier de Croissance</div>
-          <h1 className="display display-lg">Le Corridor <em>Maroc–Chine</em></h1>
+          <h1 className="display display-lg">Le Corridor <em>Maroc-Chine</em></h1>
           <p className="page-hero-sub">
             Six atouts stratégiques font du Maroc la plateforme incontournable pour toute ambition
             entre l'Afrique, l'Europe et l'Asie.
@@ -63,7 +63,7 @@ export default function Atouts() {
             <p style={{ fontSize: 16, color: 'var(--muted)', fontWeight: 300, lineHeight: 1.85, margin: '24px 0 40px' }}>
               À partir de <strong style={{ color: 'var(--red)' }}>mai 2026</strong>, la Chine lève les droits de douane
               pour la quasi-totalité des pays africains, dont le Maroc. Cette mesure historique favorise
-              directement l'exportation des produits marocains premium — argan, huile d'olive, Green Business —
+              directement l'exportation des produits marocains premium - argan, huile d'olive, Green Business -
               vers 1,4 milliard de consommateurs chinois.
             </p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 16 }}>

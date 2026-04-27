@@ -26,7 +26,7 @@ export default function Contact() {
           <h1 className="display display-lg">Contactez <em>MCC Partners</em></h1>
           <p className="page-hero-sub">
             Que vous soyez une entreprise chinoise souhaitant s'implanter en Afrique via le Maroc,
-            ou une entreprise marocaine cherchant à accéder au marché chinois — parlons-en.
+            ou une entreprise marocaine cherchant à accéder au marché chinois - parlons-en.
           </p>
         </div>
       </section>
@@ -34,7 +34,7 @@ export default function Contact() {
       <section className="section">
         <div className="container contact-grid">
 
-          {/* Left — Info */}
+          {/* Left - Info */}
           <div className="contact-info">
             <div className="section-label">Nos coordonnées</div>
             <h2 className="display display-md" style={{ marginBottom: 32 }}>
@@ -43,7 +43,7 @@ export default function Contact() {
 
             <div className="contact-items">
               {[
-                ['📍', 'Siège Principal', 'Oujda — Région de l\'Oriental, Maroc'],
+                ['📍', 'Siège Principal', 'Oujda - Région de l\'Oriental, Maroc'],
                 ['📧', 'Email', 'contact@mcc-partners.ma'],
                 ['📱', 'Téléphone / WhatsApp', '+212 668-473658'],
                 ['💬', 'WeChat', 'MCC-Partners-Officiel'],
@@ -91,7 +91,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right — Form */}
+          {/* Right - Form */}
           <div className="contact-form-wrap">
             <div className="card" style={{ padding: '40px 36px' }}>
               {submitted ? (
@@ -102,7 +102,7 @@ export default function Contact() {
                   </h3>
                   <p style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 300, lineHeight: 1.7 }}>
                     L'équipe MCC Partners vous répondra dans les <strong>48h ouvrées</strong>.
-                    Toutes les langues sont acceptées — FR / AR / EN / ZH.
+                    Toutes les langues sont acceptées - FR / AR / EN / ZH.
                   </p>
                 </div>
               ) : (
@@ -136,8 +136,8 @@ export default function Contact() {
                       <option>Export vers la Chine</option>
                       <option>Partenariat industriel</option>
                       <option>Webinaire 11 Mai 2026</option>
-                      <option>Salon MCC 2026 — Stand</option>
-                      <option>Salon MCC 2026 — Invitation</option>
+                      <option>Salon MCC 2026 - Stand</option>
+                      <option>Salon MCC 2026 - Invitation</option>
                       <option>Autre renseignement</option>
                     </select>
                   </div>

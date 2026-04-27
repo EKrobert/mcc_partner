@@ -28,7 +28,7 @@ export default function Webinaire() {
             <div className="section-label">Événement en ligne</div>
             <h1 className="display display-lg">Webinaire <em>Stratégique</em></h1>
             <p className="page-hero-sub">
-              10e anniversaire de la visite royale en Chine (2016) — moteur des grands projets structurants actuels.
+              10e anniversaire de la visite royale en Chine (2016) - moteur des grands projets structurants actuels.
               Un événement pour connecter les décideurs marocains et chinois.
             </p>
             <div style={{ display: 'flex', gap: 12, marginTop: 28, flexWrap: 'wrap' }}>
@@ -65,7 +65,7 @@ export default function Webinaire() {
                 '10e anniversaire du partenariat Maroc–Chine 2016–2026',
                 'Opportunités d\'investissement bilatéral 2026–2030',
                 'Focus Nador West Med et potentiel de l\'Oriental',
-                '0% droits de douane Chine–Afrique — impact concret',
+                '0% droits de douane Chine–Afrique - impact concret',
                 'Présentation des projets MCC Partners',
                 'Networking & identification d\'opportunités',
               ].map((item, i) => (
@@ -177,9 +177,9 @@ export default function Webinaire() {
           <h2 className="display display-md" style={{ marginBottom: 32 }}>Sessions <em>précédentes</em></h2>
           <div className="replays-grid">
             {[
-              { title: 'Webinaire MCC — Janvier 2026', dur: '1h45', views: '342' },
-              { title: 'Session export argan — Déc 2025', dur: '55 min', views: '218' },
-              { title: 'Forum B2B Oujda — Nov 2025', dur: '2h10', views: '487' },
+              { title: 'Webinaire MCC - Janvier 2026', dur: '1h45', views: '342' },
+              { title: 'Session export argan - Déc 2025', dur: '55 min', views: '218' },
+              { title: 'Forum B2B Oujda - Nov 2025', dur: '2h10', views: '487' },
             ].map((r, i) => (
               <div key={i} className="replay-card card">
                 <div className="replay-play">▶</div>

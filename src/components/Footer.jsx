@@ -7,10 +7,11 @@ export default function Footer() {
       <div className="tricolor"><span /><span /><span /></div>
       <div className="container footer-inner">
         <div className="footer-brand">
-          <div className="footer-logo">
-            <span className="logo-m">M</span>
-            <span className="logo-cc">CC</span>
-          </div>
+          <img
+            src="/src/assets/logo-mcc/logo mcc-09.png"
+            alt="MCC Partners"
+            className="footer-logo-img"
+          />
           <div className="footer-logo-sub">PARTNERS</div>
           <p className="footer-tagline">
             Le pont stratégique entre l'ambition du Maroc et la vision internationale de la Chine.
@@ -30,7 +31,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Événements</h4>
           <ul>
-            <li><NavLink to="/webinaire">Webinaire — 11 Mai 2026</NavLink></li>
+            <li><NavLink to="/webinaire">Webinaire - 11 Mai 2026</NavLink></li>
             <li><NavLink to="/salon">Salon Oriental 2026</NavLink></li>
             <li><NavLink to="/salon?parcours=chinese">Réserver un Stand</NavLink></li>
             <li><NavLink to="/salon?parcours=moroccan">Invitation Visiteur</NavLink></li>

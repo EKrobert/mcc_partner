@@ -45,9 +45,9 @@ export default function Salon() {
       <section className="page-hero salon-hero">
         <div className="container">
           <div className="section-label green">Événement Physique</div>
-          <h1 className="display display-lg">Salon <em>Maroc China</em> Connect</h1>
+          <h1 className="display display-lg">Salon <em>Morocco China</em> Connect</h1>
           <p className="page-hero-sub">
-            Le grand rendez-vous annuel B2B — région de l'Oriental, Nador West Med.
+            Le grand rendez-vous annuel B2B - région de l'Oriental, Nador West Med.
             Deux parcours distincts pour entreprises chinoises et marocaines.
           </p>
           <div style={{ display: 'flex', gap: 12, marginTop: 24, flexWrap: 'wrap' }}>
@@ -84,7 +84,7 @@ export default function Salon() {
                 <div className="route-flag">🇲🇦</div>
                 <div className="route-tag label" style={{ color: 'var(--green)' }}>شركات · Entreprises Marocaines</div>
                 <h3>Invitation Visiteur</h3>
-                <p>Rencontrez des investisseurs chinois qualifiés. Accès gratuit sur demande d'invitation officielle — places limitées.</p>
+                <p>Rencontrez des investisseurs chinois qualifiés. Accès gratuit sur demande d'invitation officielle - places limitées.</p>
                 <ul className="route-features">
                   <li>✓ Accès gratuit</li>
                   <li>✓ Badge nominatif officiel</li>
@@ -116,7 +116,7 @@ export default function Salon() {
               ))}
             </div>
 
-            {/* Step 0 — Stand selection */}
+            {/* Step 0 - Stand selection */}
             {step === 0 && (
               <div className="stands-section">
                 <h2 className="display display-md" style={{ marginBottom: 8 }}>Choisissez votre <em>Stand</em></h2>
@@ -151,12 +151,12 @@ export default function Salon() {
               </div>
             )}
 
-            {/* Step 1 — Form */}
+            {/* Step 1 - Form */}
             {step === 1 && (
               <div className="cn-form-wrap">
                 <div>
                   <div className="selected-stand-recap card">
-                    <strong>Stand sélectionné :</strong> {selectedStand?.name} — {selectedStand?.price}
+                    <strong>Stand sélectionné :</strong> {selectedStand?.name} - {selectedStand?.price}
                     <button onClick={() => setStep(0)} style={{ color: 'var(--red)', fontSize: 12, marginLeft: 12 }}>Modifier</button>
                   </div>
                   <h2 className="display display-md" style={{ margin: '24px 0 32px' }}>Vos <em>Coordonnées</em></h2>
@@ -196,7 +196,7 @@ export default function Salon() {
               </div>
             )}
 
-            {/* Step 2 — Payment */}
+            {/* Step 2 - Payment */}
             {step === 2 && (
               <div style={{ maxWidth: 640, margin: '0 auto' }}>
                 <h2 className="display display-md" style={{ marginBottom: 32 }}>Récapitulatif & <em>Paiement</em></h2>
@@ -226,7 +226,7 @@ export default function Salon() {
               </div>
             )}
 
-            {/* Step 3 — Done */}
+            {/* Step 3 - Done */}
             {step === 3 && (
               <div className="success-state" style={{ maxWidth: 540, margin: '0 auto', textAlign: 'center', padding: '40px 0' }}>
                 <div className="success-icon">✅</div>

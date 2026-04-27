@@ -30,7 +30,7 @@
   width: 100%;
 }
 
-/* Colonne gauche — texte */
+/* Colonne gauche - texte */
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -81,7 +81,7 @@
   flex-wrap: wrap;
 }
 
-/* Colonne droite — image */
+/* Colonne droite - image */
 .hero-image-wrap {
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@
   }
 }
 
-/* Mobile — image passe au-dessus du texte, reste visible */
+/* Mobile - image passe au-dessus du texte, reste visible */
 @media (max-width: 768px) {
   .hero-inner {
     grid-template-columns: 1fr;

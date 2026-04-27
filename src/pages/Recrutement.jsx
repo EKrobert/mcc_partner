@@ -23,7 +23,7 @@ const profiles = [
     title: 'Profils Bilingues & Commerciaux',
     color: 'var(--gold-dark)',
     tags: ['FR / AR / ZH', 'Business Dev', 'Export Manager', 'Interprète', 'Commercial B2B'],
-    desc: 'Talents marocains parlant mandarin ou ayant une expérience en Chine — profils rares et très recherchés pour la médiation culturelle et commerciale.',
+    desc: 'Talents marocains parlant mandarin ou ayant une expérience en Chine - profils rares et très recherchés pour la médiation culturelle et commerciale.',
   },
   {
     icon: '📊',
@@ -37,7 +37,7 @@ const profiles = [
     title: 'Management & Direction',
     color: 'var(--green)',
     tags: ['Directeur Général', 'Country Manager', 'DRH', 'DAF', 'Chef de Projet'],
-    desc: 'Cadres dirigeants capables de piloter une entité locale en conformité avec les attentes des sièges chinois — bilinguisme et leadership interculturel.',
+    desc: 'Cadres dirigeants capables de piloter une entité locale en conformité avec les attentes des sièges chinois - bilinguisme et leadership interculturel.',
   },
   {
     icon: '🎓',
@@ -57,7 +57,7 @@ const avantages = [
   {
     icon: '🌉',
     title: 'Intelligence culturelle sino-marocaine',
-    text: 'Nous sélectionnons des profils capables de travailler efficacement avec des équipes chinoises — sensibilité culturelle, codes managériaux et protocoles d\'affaires.',
+    text: 'Nous sélectionnons des profils capables de travailler efficacement avec des équipes chinoises - sensibilité culturelle, codes managériaux et protocoles d\'affaires.',
   },
   {
     icon: '⚡',
@@ -67,7 +67,7 @@ const avantages = [
   {
     icon: '📋',
     title: 'Accompagnement administratif',
-    text: 'Contrats de travail conformes au droit marocain, procédures CNSS, déclarations fiscales — nous gérons la complexité administrative pour vous.',
+    text: 'Contrats de travail conformes au droit marocain, procédures CNSS, déclarations fiscales - nous gérons la complexité administrative pour vous.',
   },
   {
     icon: '🎓',
@@ -119,7 +119,7 @@ export default function Recrutement() {
           </h1>
           <p className="page-hero-sub">
             MCC Partners accompagne les entreprises chinoises implantées au Maroc dans
-            le recrutement de profils locaux qualifiés — développeurs, ingénieurs, cadres bilingues
+            le recrutement de profils locaux qualifiés - développeurs, ingénieurs, cadres bilingues
             et experts sectoriels adaptés à votre culture d'entreprise.
           </p>
           <div style={{ display: 'flex', gap: 16, marginTop: 32, flexWrap: 'wrap' }}>
@@ -173,7 +173,7 @@ export default function Recrutement() {
             </h2>
             <p className="recru-intro-text">
               S'implanter au Maroc, c'est aussi s'entourer des bons talents locaux.
-              MCC Partners agit comme votre partenaire RH de confiance — nous connaissons
+              MCC Partners agit comme votre partenaire RH de confiance - nous connaissons
               le marché de l'emploi marocain, les codes culturels sino-marocains et les
               exigences des entreprises chinoises en termes de rigueur et de performance.
             </p>
@@ -296,7 +296,7 @@ export default function Recrutement() {
               <p style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 300, lineHeight: 1.85, marginBottom: 24 }}>
                 MCC Partners collabore avec les universités et grandes écoles marocaines pour
                 concevoir des formations adaptées aux besoins des entreprises chinoises.
-                Stages, alternances, Graduate Programs — nous créons le pipeline de talents
+                Stages, alternances, Graduate Programs - nous créons le pipeline de talents
                 dont votre entreprise a besoin pour se développer durablement au Maroc.
               </p>
               <div className="academic-schools">
@@ -345,7 +345,7 @@ export default function Recrutement() {
                   <div style={{ fontSize: 56, marginBottom: 16 }}></div>
                   <h3>Demande Enregistrée !</h3>
                   <p>Notre équipe RH analysera votre besoin et vous recontactera sous 48h avec une première sélection de profils.</p>
-                  <p style={{ marginTop: 8, color: 'var(--red)', fontWeight: 500 }}>🇲🇦 × 🇨🇳 — MCC Partners RH</p>
+                  <p style={{ marginTop: 8, color: 'var(--red)', fontWeight: 500 }}>🇲🇦 × 🇨🇳 - MCC Partners RH</p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit}>

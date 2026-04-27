@@ -49,7 +49,7 @@ export const companies = [
     sector: 'Cosmétique & Argan',
     contact: 'Fatima Ouali',
     email: 'f.ouali@myrass.ma',
-    description: 'Huile d\'argan et cosmétiques naturels certifiés export Chine — packaging premium.',
+    description: 'Huile d\'argan et cosmétiques naturels certifiés export Chine - packaging premium.',
   },
   {
     id: '007', flag: '🇲🇦', country: 'Maroc', isChinese: false,
@@ -57,7 +57,7 @@ export const companies = [
     sector: 'Agroalimentaire',
     contact: 'Hassan Khattabi',
     email: 'h.khattabi@olivexport.ma',
-    description: 'Huile d\'olive AOC de la région de l\'Oriental — export certifié vers l\'Asie.',
+    description: 'Huile d\'olive AOC de la région de l\'Oriental - export certifié vers l\'Asie.',
   },
   {
     id: '008', flag: '🇲🇦', country: 'Maroc', isChinese: false,
@@ -65,14 +65,14 @@ export const companies = [
     sector: 'Logistique & Transport',
     contact: 'Rachid Tazi',
     email: 'r.tazi@nwm-logistics.ma',
-    description: 'Opérateur logistique basé à Nador West Med — transit international Maroc–Asie.',
+    description: 'Opérateur logistique basé à Nador West Med - transit international Maroc–Asie.',
   },
 ]
 
 export const speakers = [
-  { flag: '🇨🇳', name: 'M. Lu', role: 'Partenaire Fondateur MCC — Chine', bio: 'Expert en investissements sino-africains, 25 ans d\'expérience en développement de marchés émergents.' },
+  { flag: '🇨🇳', name: 'M. Lu', role: 'Partenaire Fondateur MCC - Chine', bio: 'Expert en investissements sino-africains, 25 ans d\'expérience en développement de marchés émergents.' },
   { flag: '🇨🇳', name: 'Mme Dai', role: 'Directrice Partenariats Sino-Africains', bio: 'Spécialiste des protocoles d\'affaires sino-marocains et de la Belt & Road Initiative.' },
-  { flag: '🇲🇦', name: 'Youssef Benali', role: 'Co-Fondateur MCC Partners — Maroc', bio: 'MRE double nationalité franco-marocaine, fondateur AfrikHub, expert en commerce international.' },
+  { flag: '🇲🇦', name: 'Youssef Benali', role: 'Co-Fondateur MCC Partners - Maroc', bio: 'MRE double nationalité franco-marocaine, fondateur AfrikHub, expert en commerce international.' },
   { flag: '🇲🇦', name: 'Hassan Khattabi', role: 'Expert Commerce International', bio: 'Spécialiste des accords de libre-échange et de l\'accès aux marchés africains et asiatiques.' },
 ]
 
@@ -83,18 +83,18 @@ export const stands = [
 ]
 
 export const atouts = [
-  { emoji: '🏛', color: 'var(--green)', title: 'Stabilité Institutionnelle', text: 'Le Maroc se distingue par une stabilité rare — facteur déterminant pour les investissements lourds et les partenariats à long terme.' },
+  { emoji: '🏛', color: 'var(--green)', title: 'Stabilité Institutionnelle', text: 'Le Maroc se distingue par une stabilité rare - facteur déterminant pour les investissements lourds et les partenariats à long terme.' },
   { emoji: '🤝', color: 'var(--red)', title: 'Accords de Libre-Échange', text: 'Seul pays africain avec un accord ALE avec les USA. Accès privilégié à l\'Europe (UE) et à l\'Afrique via la ZLECAf.' },
-  { emoji: '📦', color: 'var(--gold-dark)', title: '0% Droits de Douane Chine', text: 'Dès mai 2026, la Chine lève les droits de douane pour le Maroc — opportunité historique pour l\'export premium marocain.' },
-  { emoji: '⚓', color: 'var(--green)', title: 'Nador West Med', text: 'Nouveau pivot logistique de l\'Oriental — passerelle directe vers les marchés mondiaux sans intermédiaires.' },
-  { emoji: '🌍', color: 'var(--red)', title: 'Porte d\'Entrée Africaine', text: '54 nations africaines accessibles via le hub marocain — diplomatie de confiance et réseaux établis.' },
-  { emoji: '🌿', color: 'var(--gold-dark)', title: 'Produits Premium Export', text: 'Argan, huile d\'olive, Green Business — des produits d\'exception qui séduisent 1,4 milliard de consommateurs chinois.' },
+  { emoji: '📦', color: 'var(--gold-dark)', title: '0% Droits de Douane Chine', text: 'Dès mai 2026, la Chine lève les droits de douane pour le Maroc - opportunité historique pour l\'export premium marocain.' },
+  { emoji: '⚓', color: 'var(--green)', title: 'Nador West Med', text: 'Nouveau pivot logistique de l\'Oriental - passerelle directe vers les marchés mondiaux sans intermédiaires.' },
+  { emoji: '🌍', color: 'var(--red)', title: 'Porte d\'Entrée Africaine', text: '54 nations africaines accessibles via le hub marocain - diplomatie de confiance et réseaux établis.' },
+  { emoji: '🌿', color: 'var(--gold-dark)', title: 'Produits Premium Export', text: 'Argan, huile d\'olive, Green Business - des produits d\'exception qui séduisent 1,4 milliard de consommateurs chinois.' },
 ]
 
 export const values = [
   { icon: '🧭', title: 'Humanité & Intégrité', text: 'L\'éthique comme boussole. Nous priorisons les projets porteurs de sens, guidés par l\'honnêteté et la sincérité.' },
   { icon: '🌐', title: 'Intelligence Culturelle', text: 'Entre la vision et l\'exécution, il y a l\'intelligence culturelle. Nous traduisons les mentalités, pas seulement les mots.' },
-  { icon: '🔗', title: 'Fiabilité & Long Terme', text: 'Nous construisons des destins communs. Vision Gagnant-Gagnant — un cercle vertueux où chaque partie prospère.' },
+  { icon: '🔗', title: 'Fiabilité & Long Terme', text: 'Nous construisons des destins communs. Vision Gagnant-Gagnant - un cercle vertueux où chaque partie prospère.' },
 ]
 
 export const stats = [

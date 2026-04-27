@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Événements</h4>
           <ul>
-            <li><NavLink to="/webinaire">Webinaire — 11 Mai 2026</NavLink></li>
+            <li><NavLink to="/webinaire">Webinaire - 11 Mai 2026</NavLink></li>
             <li><NavLink to="/salon">Salon Oriental 2026</NavLink></li>
             <li><NavLink to="/salon?parcours=chinese">Réserver un Stand</NavLink></li>
             <li><NavLink to="/salon?parcours=moroccan">Invitation Visiteur</NavLink></li>
@@ -40,7 +40,7 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li><span>📍 Oujda — Oriental, Maroc</span></li>
+            <li><span>📍 Oujda - Oriental, Maroc</span></li>
             <li><span>📧 contact@mcc-partners.ma</span></li>
             <li><span>📱 +212 668-473658</span></li>
             <li><span>💬 WeChat : MCC-Partners</span></li>
@@ -55,7 +55,7 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <div className="container footer-bottom-inner">
-          <span>© 2026 MCC Partners — Maroc China Connect. Tous droits réservés.</span>
+          <span>© 2026 MCC Partners - Maroc China Connect. Tous droits réservés.</span>
           <span>FR &nbsp;|&nbsp; AR &nbsp;|&nbsp; ZH &nbsp;|&nbsp; EN</span>
         </div>
       </div>

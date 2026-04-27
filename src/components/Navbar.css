@@ -24,7 +24,7 @@
   gap: 4px;
   flex-shrink: 0;
 }
-.logo-m {
+/* .logo-m {
   font-family: var(--font-display);
   font-size: 36px;
   font-weight: 700;
@@ -49,6 +49,13 @@
   margin-left: 6px;
   align-self: flex-end;
   padding-bottom: 3px;
+} */
+
+.navbar-logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 /* Links */

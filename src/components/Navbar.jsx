@@ -24,9 +24,11 @@ export default function Navbar() {
       <div className="container navbar-inner">
         {/* Logo */}
         <NavLink to="/" className="navbar-logo">
-          <span className="logo-m">M</span>
-          <span className="logo-cc">CC</span>
-          <span className="logo-partners">PARTNERS</span>
+          <img
+            src="/src/assets/logo-mcc/logo mcc-09.png"
+            alt="MCC Partners"
+            className="navbar-logo-img"
+          />
         </NavLink>
 
         {/* Desktop nav */}
