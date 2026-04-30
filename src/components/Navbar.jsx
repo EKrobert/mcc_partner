@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import { navLinks } from '../data'
 import './Navbar.css'
+import logo from "../assets/logo-mcc/logo mcc-09.png";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -25,7 +26,7 @@ export default function Navbar() {
         {/* Logo */}
         <NavLink to="/" className="navbar-logo">
           <img
-            src="/src/assets/logo-mcc/logo mcc-09.png"
+            src={logo}
             alt="MCC Partners"
             className="navbar-logo-img"
           />

@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './Footer.css'
+import logo from "../assets/logo-mcc/logo mcc-09.png";
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
       <div className="container footer-inner">
         <div className="footer-brand">
           <img
-            src="/src/assets/logo-mcc/logo mcc-09.png"
+            src={logo}
             alt="MCC Partners"
             className="footer-logo-img"
           />
